@@ -43,13 +43,16 @@ Brandon dispatches the day's repair jobs by sending one group text per technicia
 
 ## Step-by-step zap configuration
 
-### Step 1 — Trigger: Quo "Incoming Message Received"
+### Step 1 — Trigger: Quo "Outgoing Message Delivered"
 
 - App: **Quo** (the integration is listed under "Quo", not "OpenPhone", post-rebrand)
-- Event: **Incoming Message Received**
+- Event: **Outgoing Message Delivered** ← NOT "Incoming Message Received"
 - Account: the Quo account already connected in Zapier (e.g. josh@bluelemonpools.com)
-- Phone Numbers: **Office Main Line — (480) 843-0530**
-- (No separate "Direction" field — the event name already implies incoming.)
+- Phone Numbers: **Brandon Babcock Blue Lemon — (480) 848-3177** (Brandon's number, since he's the sender)
+
+**Why "Outgoing" not "Incoming":** Brandon is a Quo team-member on the workspace. When he texts the office line + a tech, Quo categorizes that as an **outgoing message** from the workspace's perspective (originating from a workspace-owned number), not an incoming external message. The "Incoming Message Received" event only fires for messages from EXTERNAL senders (customers, etc.). Discovered live during build 2026-04-26 when Josh's team-member test sends never appeared under Incoming Message Received.
+
+This trigger is **Instant** (webhook-pushed), not polling, so there's no lag.
 
 ### Step 2 — Filter
 
