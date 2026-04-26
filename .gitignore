@@ -1,6 +1,9 @@
 # Claude Code session data — never commit
 .claude/
 
+# Auto-backup log
+.backup.log
+
 # Windows / OneDrive
 desktop.ini
 Thumbs.db
