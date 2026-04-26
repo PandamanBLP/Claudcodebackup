@@ -43,16 +43,18 @@ Brandon dispatches the day's repair jobs by sending one group text per technicia
 
 ## Step-by-step zap configuration
 
-### Step 1 — Trigger: Quo "Outgoing Message Delivered"
+### Step 1 — Trigger: Quo "Incoming Message Received"
 
 - App: **Quo** (the integration is listed under "Quo", not "OpenPhone", post-rebrand)
-- Event: **Outgoing Message Delivered** ← NOT "Incoming Message Received"
+- Event: **Incoming Message Received**
 - Account: the Quo account already connected in Zapier (e.g. josh@bluelemonpools.com)
-- Phone Numbers: **Brandon Babcock Blue Lemon — (480) 848-3177** (Brandon's number, since he's the sender)
-
-**Why "Outgoing" not "Incoming":** Brandon is a Quo team-member on the workspace. When he texts the office line + a tech, Quo categorizes that as an **outgoing message** from the workspace's perspective (originating from a workspace-owned number), not an incoming external message. The "Incoming Message Received" event only fires for messages from EXTERNAL senders (customers, etc.). Discovered live during build 2026-04-26 when Josh's team-member test sends never appeared under Incoming Message Received.
+- Phone Numbers: **Office Main Line — (480) 843-0530**
 
 This trigger is **Instant** (webhook-pushed), not polling, so there's no lag.
+
+**Why Incoming and not Outgoing:** Brandon's number `(480) 848-3177` is his personal cell — NOT a Quo workspace-owned number. The only Quo-owned number is the Office Main Line `(480) 843-0530`. Even though Brandon is a "team member" in the Quo workspace (so his messages get the lemon emoji prefix in display), his SMS is sent from his personal carrier, so from Quo's perspective it's an external incoming message hitting the Office Line.
+
+**Test-trigger gotcha (verified 2026-04-26):** When you click "Test trigger" the panel shows a note "We will load up to 3 most recent records, that have not appeared previously." Because the Quo account is used in many other zaps, recent Josh/Brandon test sends may have already been consumed by one of those zaps and won't show in this zap's Test panel. **Use the Search box at the top of the Test panel** to search for Brandon's number (`4808483177`) and confirm at least one of his historical dispatches appears — that proves the trigger DOES fire on team-member personal-cell sends. If nothing appears even on search, switch to `Outgoing Message Delivered` filtered to Office Main Line as a fallback.
 
 ### Step 2 — Filter
 
