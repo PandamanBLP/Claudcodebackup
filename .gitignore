@@ -1,0 +1,22 @@
+# Claude Code session data — never commit
+.claude/
+
+# Windows / OneDrive
+desktop.ini
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+
+# macOS (in case folder is opened cross-platform)
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Secrets — be safe
+.env
+.env.*
+*.pem
+*.key
