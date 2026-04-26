@@ -4,6 +4,9 @@
 # Auto-backup log
 .backup.log
 
+# Callback queue run log
+.callback_queue.log
+
 # Windows / OneDrive
 desktop.ini
 Thumbs.db
