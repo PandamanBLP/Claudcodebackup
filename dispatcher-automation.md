@@ -43,12 +43,13 @@ Brandon dispatches the day's repair jobs by sending one group text per technicia
 
 ## Step-by-step zap configuration
 
-### Step 1 — Trigger: OpenPhone "New Message"
+### Step 1 — Trigger: Quo "Incoming Message Received"
 
-- App: **OpenPhone**
-- Event: **New Message**
-- Phone number: **Office Main Line — (480) 843-0530**
-- Direction: **Incoming**
+- App: **Quo** (the integration is listed under "Quo", not "OpenPhone", post-rebrand)
+- Event: **Incoming Message Received**
+- Account: the Quo account already connected in Zapier (e.g. josh@bluelemonpools.com)
+- Phone Numbers: **Office Main Line — (480) 843-0530**
+- (No separate "Direction" field — the event name already implies incoming.)
 
 ### Step 2 — Filter
 
