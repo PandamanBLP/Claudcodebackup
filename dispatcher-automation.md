@@ -151,8 +151,9 @@ Your output is JSON only — no prose, no markdown fences. Schema:
 }
 
 Matching rules:
-- Compare loosely: ignore case, ignore (City) parentheticals, allow nicknames (AJ for Apache Junction, etc.).
-- If a name in Brandon's text could match two roster entries, set matched_jobber_client_name to null and source_bucket to "unmatched" (the downstream system will alert).
+- The candidate roster entries are JOBS (not just clients). Each entry has a title formatted `{Customer Name} - [optional type prefix like "R"] ({City}) {Job description}`.
+- Compare the customer-name portion (the part before " - ") loosely against Brandon's named customer: ignore case, ignore (City) parentheticals, allow common typos (Rapath ↔ Zarapath), allow nicknames (AJ for Apache Junction, etc.).
+- **Same-customer-multiple-jobs:** if 2+ candidate jobs share the same customer name (e.g., Janet Moeur has both "Pool Rx, Weekly Service" and "Vacuum Tires/Hose Floats" on the same Saturday), use Brandon's per-customer instruction text to pick the right one — match keywords from the instructions against the job-description portion of the title. If you can confidently pick one, return that job. If not, emit it with `source_bucket: "unmatched"` and a note in the description so the alert system can flag the ambiguity.
 - If a name in Brandon's text matches NEITHER roster, set matched to null and source_bucket to "unmatched".
 - Do not invent jobs that aren't in Brandon's text.
 - Do not skip jobs that are in Brandon's text just because they don't match the roster — emit them with "unmatched" so the alert system catches them.
