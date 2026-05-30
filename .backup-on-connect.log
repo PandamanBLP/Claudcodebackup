@@ -1820,3 +1820,6 @@
 2026-05-30 06:10:21 Found External HDD at E:
 2026-05-30 06:10:21 Adopting existing snapshot E:\Backup-2026-05-17-PANDAMANBLP as E:\Backup-auto
 2026-05-30 06:10:25 Starting incremental backup -> E:\Backup-auto
+2026-05-30 06:24:53   Downloads: robocopy exit 3
+2026-05-30 06:24:56   Videos: robocopy exit 3
+2026-05-30 06:24:57   Music: robocopy exit 1
