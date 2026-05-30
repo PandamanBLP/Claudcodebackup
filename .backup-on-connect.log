@@ -1815,3 +1815,8 @@
 2026-05-30 05:20:20 External HDD not connected. Exiting.
 2026-05-30 05:30:20 External HDD not connected. Exiting.
 2026-05-30 05:40:20 External HDD not connected. Exiting.
+2026-05-30 05:50:20 External HDD not connected. Exiting.
+2026-05-30 06:00:20 External HDD not connected. Exiting.
+2026-05-30 06:10:21 Found External HDD at E:
+2026-05-30 06:10:21 Adopting existing snapshot E:\Backup-2026-05-17-PANDAMANBLP as E:\Backup-auto
+2026-05-30 06:10:25 Starting incremental backup -> E:\Backup-auto
