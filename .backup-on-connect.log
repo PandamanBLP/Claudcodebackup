@@ -1994,3 +1994,24 @@
 2026-05-30 20:30:21 Last run 5.6h ago (cooldown 6h). Skipping.
 2026-05-30 20:40:21 Found External HDD at E:
 2026-05-30 20:40:21 Last run 5.8h ago (cooldown 6h). Skipping.
+2026-05-30 20:50:21 Found External HDD at E:
+2026-05-30 20:50:21 Last run 6.0h ago (cooldown 6h). Skipping.
+2026-05-30 21:00:21 Found External HDD at E:
+2026-05-30 21:00:21 Starting incremental backup -> E:\Backup-auto
+2026-05-30 21:00:25   Downloads: robocopy exit 2
+2026-05-30 21:00:25   Videos: robocopy exit 2
+2026-05-30 21:00:25   Music: robocopy exit 0
+2026-05-30 21:00:31   Desktop: robocopy exit 3
+2026-05-30 21:00:32   Pictures: robocopy exit 2
+2026-05-30 21:00:35   Documents: robocopy exit 2
+2026-05-30 21:00:40   ClaudeStuff: robocopy exit 0
+2026-05-30 21:00:40   Audacity: robocopy exit 0
+2026-05-30 21:00:40   TrainingVideos: robocopy exit 0
+2026-05-30 21:00:40   Attachments: robocopy exit 0
+2026-05-30 21:00:40   TranscribedFiles: robocopy exit 0
+2026-05-30 21:00:40   Brochures: robocopy exit 0
+2026-05-30 21:00:40   Testimonials: robocopy exit 0
+2026-05-30 21:00:40   Warranty: robocopy exit 0
+2026-05-30 21:00:41 Backup complete. Elapsed 00:00:20.
+2026-05-30 21:10:21 Found External HDD at E:
+2026-05-30 21:10:21 Last run 0.2h ago (cooldown 6h). Skipping.
