@@ -3158,3 +3158,14 @@
 2026-06-05 21:00:20 Last run 5.4h ago (cooldown 6h). Skipping.
 2026-06-05 21:10:20 Found External HDD at E:
 2026-06-05 21:10:20 Last run 5.6h ago (cooldown 6h). Skipping.
+2026-06-05 21:20:21 Found External HDD at E:
+2026-06-05 21:20:21 Last run 5.7h ago (cooldown 6h). Skipping.
+2026-06-05 21:30:22 Found External HDD at E:
+2026-06-05 21:30:22 Last run 5.9h ago (cooldown 6h). Skipping.
+2026-06-05 21:40:20 Found External HDD at E:
+2026-06-05 21:40:20 Starting incremental backup -> E:\Backup-auto
+2026-06-05 21:40:24   Downloads: robocopy exit 3
+2026-06-05 21:40:24   Videos: robocopy exit 3
+2026-06-05 21:40:24   Music: robocopy exit 1
+2026-06-05 21:41:08   Desktop: robocopy exit 3
+2026-06-05 21:41:10   Pictures: robocopy exit 3
