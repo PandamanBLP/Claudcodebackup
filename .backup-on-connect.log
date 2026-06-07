@@ -3713,3 +3713,7 @@
 2026-06-07 10:42:23   Testimonials: robocopy exit 0
 2026-06-07 10:42:23   Warranty: robocopy exit 0
 2026-06-07 10:42:24 Backup complete. Elapsed 00:02:02.
+2026-06-07 10:50:21 Found External HDD at E:
+2026-06-07 10:50:21 Last run 0.1h ago (cooldown 6h). Skipping.
+2026-06-07 11:00:21 Found External HDD at E:
+2026-06-07 11:00:21 Last run 0.3h ago (cooldown 6h). Skipping.
