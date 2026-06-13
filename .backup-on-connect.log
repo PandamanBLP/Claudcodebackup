@@ -4500,3 +4500,24 @@
 2026-06-12 17:20:21 External HDD not connected. Exiting.
 2026-06-12 17:30:21 External HDD not connected. Exiting.
 2026-06-12 17:40:21 External HDD not connected. Exiting.
+2026-06-12 17:50:21 Found External HDD at E:
+2026-06-12 17:50:24 Starting incremental backup -> E:\Backup-auto
+2026-06-12 17:50:26   Downloads: robocopy exit 3
+2026-06-12 17:50:26   Videos: robocopy exit 2
+2026-06-12 17:50:26   Music: robocopy exit 0
+2026-06-12 17:51:05   Desktop: robocopy exit 3
+2026-06-12 17:51:07   Pictures: robocopy exit 3
+2026-06-12 17:51:32   Documents: robocopy exit 2
+2026-06-12 17:52:06   ClaudeStuff: robocopy exit 0
+2026-06-12 17:52:06   Audacity: robocopy exit 0
+2026-06-12 17:52:06   TrainingVideos: robocopy exit 0
+2026-06-12 17:52:06   Attachments: robocopy exit 0
+2026-06-12 17:52:06   TranscribedFiles: robocopy exit 0
+2026-06-12 17:52:06   Brochures: robocopy exit 0
+2026-06-12 17:52:06   Testimonials: robocopy exit 0
+2026-06-12 17:52:07   Warranty: robocopy exit 0
+2026-06-12 17:52:07 Backup complete. Elapsed 00:01:42.
+2026-06-12 18:00:21 Found External HDD at E:
+2026-06-12 18:00:21 Last run 0.1h ago (cooldown 6h). Skipping.
+2026-06-12 18:10:21 Found External HDD at E:
+2026-06-12 18:10:21 Last run 0.3h ago (cooldown 6h). Skipping.
