@@ -7266,3 +7266,19 @@
 2026-06-20 17:00:25   Music: robocopy exit 0
 2026-06-20 17:14:49   Desktop: robocopy exit 3
 2026-06-20 17:14:51   Pictures: robocopy exit 3
+2026-06-20 17:15:25   Documents: robocopy exit 3
+2026-06-20 17:16:27   ClaudeStuff: robocopy exit 0
+2026-06-20 17:16:27   Audacity: robocopy exit 0
+2026-06-20 17:16:27   TrainingVideos: robocopy exit 0
+2026-06-20 17:16:27   Attachments: robocopy exit 0
+2026-06-20 17:16:27   TranscribedFiles: robocopy exit 0
+2026-06-20 17:16:27   Brochures: robocopy exit 0
+2026-06-20 17:16:27   Testimonials: robocopy exit 0
+2026-06-20 17:16:27   Warranty: robocopy exit 0
+2026-06-20 17:16:28 Backup complete. Elapsed 00:16:07.
+2026-06-20 17:20:21 Found External HDD at E:
+2026-06-20 17:20:21 Last run 0.1h ago (cooldown 6h). Skipping.
+2026-06-20 17:30:21 Found External HDD at E:
+2026-06-20 17:30:21 Last run 0.2h ago (cooldown 6h). Skipping.
+2026-06-20 17:40:21 Found External HDD at E:
+2026-06-20 17:40:21 Last run 0.4h ago (cooldown 6h). Skipping.
